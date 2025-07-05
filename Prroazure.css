@@ -1,0 +1,11 @@
+.logo{
+    height: 60px;
+    width: 30px;
+}
+h1{
+    height: 20px;
+    width: 30px;
+}
+.head{
+    display: flex;
+}
