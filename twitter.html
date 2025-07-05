@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #15202b;
+            color: #fff;
+        }
+        .container {
+            display: flex;
+            min-height: 100vh;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .sidebar {
+            flex: 1 1 220px;
+            background: #192734;
+            padding: 20px 0 20px 20px;
+            min-width: 100px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+         .sidebar .logo {
+            margin-bottom: 30px;
+            
+        }
+        .sidebar nav a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+            margin-bottom: 18px;
+            padding: 8px 16px;
+            border-radius: 25px;
+            transition: background 0.2s;
+        }
+        .sidebar nav a:hover {
+            background: #22303c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="image-copy.png" alt="Twitter Logo" width="48">
+            </div>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Explore</a>
+                <a href="#">Notifications</a>
+                <a href="#">Messages</a>
+                <a href="#">Bookmarks</a>
+                <a href="#">Lists</a>
+                <a href="#">Profile</a>
+                <a href="#">More</a>
+            </nav>
+        </div>
+
+            
+          <aside class="rightbar">
+            <div class="search-box">
+                <input type="text" placeholder="Search Twitter">
+            </div>
+            <div class="trends">
+                <h3>Trends for you</h3>
+                <br>
+                <span>openAi</span>
+                <br>
+                <span>webdevlopment</span>
+                <br>
+                <span>ML</span>     
+               </div>
+        </aside>
+    </div>
+
+</body>
+</html>
